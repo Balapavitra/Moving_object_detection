@@ -1,4 +1,4 @@
-# Motion Detection with OpenCV
+# Moving Object Detection with OpenCV
 
 This project demonstrates a simple motion detection system using OpenCV and Python. The code captures video from a webcam, processes the video frames to detect motion, and highlights the areas where motion is detected.
 
@@ -22,8 +22,8 @@ This project demonstrates a simple motion detection system using OpenCV and Pyth
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/balapavitra/motion-detection-opencv.git
-    cd motion-detection-opencv
+    git clone https://github.com/Balapavitra/Moving_object_detection.git
+    cd Moving_object_detection
     ```
 
 2. Create a virtual environment (optional but recommended):
@@ -44,7 +44,7 @@ This project demonstrates a simple motion detection system using OpenCV and Pyth
 1. Run the motion detection script:
 
     ```bash
-    python motion_detection.py
+    python Moving_object_detection.py
     ```
 
 2. The webcam feed will open in a new window. The script will display "Normal" if no motion is detected and "Moving object detected" when motion is detected. Bounding boxes will be drawn around moving objects.
@@ -67,8 +67,11 @@ This project demonstrates a simple motion detection system using OpenCV and Pyth
 - `cv2.imshow("camerafeed", img)`: Show the processed video feed.
 - `cv2.waitKey(10)`: Wait for 10 milliseconds for a key press. If the `q` key is pressed, break the loop.
 
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
 ## Acknowledgments
 
 - This project uses the OpenCV library for computer vision tasks.
 - The `imutils` library is used for additional image processing functions.
-
