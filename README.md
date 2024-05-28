@@ -67,10 +67,6 @@ This project demonstrates a simple motion detection system using OpenCV and Pyth
 - `cv2.imshow("camerafeed", img)`: Show the processed video feed.
 - `cv2.waitKey(10)`: Wait for 10 milliseconds for a key press. If the `q` key is pressed, break the loop.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
 ## Acknowledgments
 
 - This project uses the OpenCV library for computer vision tasks.
